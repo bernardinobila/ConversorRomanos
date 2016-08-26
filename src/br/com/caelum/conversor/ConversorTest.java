@@ -17,7 +17,7 @@ public class ConversorTest {
 
 
 	@Test
-	public void valoresEsquerdaMenores() {
+	public void deveRotornarValoresDaEsquerdaMenores() {
 		String txt= "XXD";
 		int m= cv.traduzirNumeralRomano(txt);
 		
@@ -27,7 +27,7 @@ public class ConversorTest {
 	
 		
 	@Test
-	public void valoresEsquerdaMaior() {
+	public void deveRotornarValoresDaEsquerdaMaior() {
 		String txt= "CLX";
 		int m= cv.traduzirNumeralRomano(txt);
 		
@@ -36,7 +36,7 @@ public class ConversorTest {
 	}
 	
 	@Test
-	public void valoresDireitaEquerdaIguais() {
+	public void deveRotornarValoresDaDireitaAEquerdaIguais() {
 		String txt= "XLX";
 		int d= cv.traduzirNumeralRomano(txt);
 		
@@ -46,7 +46,7 @@ public class ConversorTest {
 	
 	
 	@After
-	public void matar(){
+	public void fim(){
 		
 	}
 
